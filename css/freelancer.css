@@ -514,3 +514,7 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+section.success {
+    background: #2C3E50;
+}

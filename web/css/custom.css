@@ -327,12 +327,29 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 
 /* Services */
+#services {
+    background: rgba(0, 0, 0, 0) url("../images/portfolio_bg.jpg") no-repeat scroll 0 0;
+    background-size:cover;
+    position:relative;
+    padding-bottom: 102px;
+    border-bottom:2px solid #F78200;
+}
+#services::before{
+    position:absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    background: rgba(246,130,0,0.85);
+    top:0;
+    left:0;
+}
 #services h2 {
     margin: 85px 0 50px;
     text-align:center;
 }
 .service_item > h3 {
     margin: 25px 0 15px;
+    color: #fff;
 }
 .service_item .btn.know_btn {
     margin: 20px 0 100px;
